@@ -1,8 +1,6 @@
 <?php 
 include_once 'core/user.php';
 $user= new user();
-
-
  ?>
 
 <?php include_once './templetes/header_.php'; ?>
