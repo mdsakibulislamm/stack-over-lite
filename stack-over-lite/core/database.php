@@ -1,7 +1,7 @@
 <?php 
 class database{
 
-	public $conn ;
+	public $conn;
 	public function __construct(){
 		$servername = "localhost";
 		$username = "root";
@@ -14,7 +14,6 @@ class database{
 }
 public function dataWrite($sql)
 {
-
 $statement= $this-> conn-> prepare($sql);
 $statement->execute();
 }

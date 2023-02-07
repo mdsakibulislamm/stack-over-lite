@@ -16,7 +16,7 @@ if(!isset($_SESSION['user_id'])){
     <!-- Page content -->
     <br><br>
   <!-- Question Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <section class="page-section text-black mb-0" id="about">
             <div class="container">
             <?php 
             if(isset($_POST['submit'])){

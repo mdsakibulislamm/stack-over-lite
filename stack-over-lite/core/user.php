@@ -1,7 +1,7 @@
 <?php 
 include 'database.php';
 class user extends database{
-	// REFESTER
+	// REGISTER
 
 	public function register($username,$email,$password,$phone)
 	{

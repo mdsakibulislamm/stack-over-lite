@@ -14,7 +14,7 @@
                         <?php 
                         else:
                          ?>
-                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="questions.php">Question</a></li>
+                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="questions.php">Create Question</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="logout.php">(<?= $_SESSION['username'] ?>)Logout</a></li>
                         <?php 
                     endif;
