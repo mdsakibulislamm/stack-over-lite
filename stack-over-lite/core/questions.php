@@ -9,6 +9,19 @@ class questions extends database{
 
 
     }
+    //Get Specific questions Data 
+    public function getOnequestion($qid)
+    {
+        $query = "SELECT * FROM questions WHERE id='$qid'";
+        return $this->dataFetch($query);
+    }
+    //Post Answer 
+    public function makeAnswer($user_id, $q_id,$answer){
+        $query = "INSERT INTO answers (user_id, question_id,details) VALUES ('$q_id','$user_id','$answer')";
+        $this->dataWrite($query);
+
+    }
+     
 
 }
 
