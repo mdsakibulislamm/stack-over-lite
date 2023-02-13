@@ -28,7 +28,7 @@ $user= new user();
                                 session_start();
                                 $_SESSION['user_id']=$result[0]['id'];
                                   $_SESSION['username']=$result[0]['username'];
-                                  header("location: dashboard.php");
+                                  header("location: index.php");
 
 
                             }else{

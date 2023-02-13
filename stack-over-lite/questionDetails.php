@@ -40,7 +40,6 @@ $questionData = $questionData[0];
 
 			<hr>
 			<?php if(isset($_SESSION['user_id'])): ?>
-
 			<div class="row">
 				<div class="col-12">
 
@@ -66,7 +65,6 @@ $questionData = $questionData[0];
 						if (isset($_POST['submit'])) {
 							
 							$answer->makeAnswer($questionData['id'],$_SESSION['user_id'],$_POST['answer']);
-
 							echo "Answer Submitted";
 
 						}
